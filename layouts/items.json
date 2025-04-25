@@ -9,8 +9,22 @@
                 "item_size": "42",
                 "item_margin": "3,3",
                 "rows": [
-                    ["cecilcharacter","kaincharacter","rydiacharacter","tellahcharacter","edwardcharacter","rosacharacter" ],
-                    ["yangcharacter","poromcharacter","palomcharacter","cidcharacter","edgecharacter","fusoyacharacter" ]
+                    [
+                        "cecilcharacter",
+                        "kaincharacter",
+                        "rydiacharacter",
+                        "tellahcharacter",
+                        "edwardcharacter",
+                        "rosacharacter"
+                    ],
+                    [
+                        "yangcharacter",
+                        "palomcharacter",
+                        "poromcharacter",
+                        "cidcharacter",
+                        "edgecharacter",
+                        "fusoyacharacter"
+                    ]
                 ]
             }
         ]
@@ -25,10 +39,36 @@
                 "item_size": "42",
                 "item_margin": "3,3",
                 "rows": [
-                    ["crystal","pass","hook","darknesscrystal","earthcrystal","twinharp"],
-                    ["package","sandruby","baronkey","magmakey","towerkey","lucakey"],
-                    ["adamant","legendsword","pan","spoon","rattail","pinktail"],
-                    ["darkmatter","","","go_mode"]
+                    [
+                        "crystal",
+                        "pass",
+                        "hook",
+                        "darknesscrystal",
+                        "earthcrystal",
+                        "twinharp"
+                    ],
+                    [
+                        "package",
+                        "sandruby",
+                        "baronkey",
+                        "magmakey",
+                        "towerkey",
+                        "lucakey"
+                    ],
+                    [
+                        "adamant",
+                        "legendsword",
+                        "pan",
+                        "spoon",
+                        "rattail",
+                        "pinktail"
+                    ],
+                    [
+                        "darkmatter",
+                        "",
+                        "",
+                        "go_mode"
+                    ]
                 ]
             }
         ]
@@ -43,11 +83,51 @@
                 "item_size": "35",
                 "item_margin": "3,3",
                 "rows": [
-                    ["mistdragonx","baronsoldiersx","octomammx","antlionx","waterhagx","mombombx","fabulgauntletx"],
-                    ["milonx","milonzx","darkcecilx","baronguardsx","yangx","valvalisx","calcabrinax"],
-                    ["baiganx","kainazzox","darkelfx","magussistersx","golbezx","lugaex","darkimpsx"],
-                    ["eblankingqueenx","rubicantex","evilwallx","elementsx","cpux","odinx","asurax"],
-                    ["leviathanx","bahamutx","paledimx","lunardragonsx","plaguex","ogopogox","wyvernx"]
+                    [
+                        "mistdragonx",
+                        "baronsoldiersx",
+                        "octomammx",
+                        "antlionx",
+                        "waterhagx",
+                        "mombombx",
+                        "fabulgauntletx"
+                    ],
+                    [
+                        "milonx",
+                        "milonzx",
+                        "darkcecilx",
+                        "baronguardsx",
+                        "yangx",
+                        "valvalisx",
+                        "calcabrinax"
+                    ],
+                    [
+                        "baiganx",
+                        "kainazzox",
+                        "darkelfx",
+                        "magussistersx",
+                        "golbezx",
+                        "lugaex",
+                        "darkimpsx"
+                    ],
+                    [
+                        "eblankingqueenx",
+                        "rubicantex",
+                        "evilwallx",
+                        "elementsx",
+                        "cpux",
+                        "odinx",
+                        "asurax"
+                    ],
+                    [
+                        "leviathanx",
+                        "bahamutx",
+                        "paledimx",
+                        "lunardragonsx",
+                        "plaguex",
+                        "ogopogox",
+                        "wyvernx"
+                    ]
                 ]
             }
         ]
@@ -62,11 +142,25 @@
                 "item_size": "102",
                 "item_margin": "3,-23",
                 "rows": [
-                    [""],
-                    ["nofreecharacterslabel","nofreecharacters"],
-                    ["noearnedcharacterslabel","noearnedcharacters"],
-                    ["darkmatterhuntlabel","darkmatterhunt"],
-                    ["passenabledlabel","passenabled"]
+                    [
+                        ""
+                    ],
+                    [
+                        "nofreecharacterslabel",
+                        "nofreecharacters"
+                    ],
+                    [
+                        "noearnedcharacterslabel",
+                        "noearnedcharacters"
+                    ],
+                    [
+                        "darkmatterhuntlabel",
+                        "darkmatterhunt"
+                    ],
+                    [
+                        "passenabledlabel",
+                        "passenabled"
+                    ]
                 ]
             }
         ]

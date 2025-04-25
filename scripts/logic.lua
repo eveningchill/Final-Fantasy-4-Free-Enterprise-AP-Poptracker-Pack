@@ -1,4 +1,3 @@
-
 function dump_table(o, depth)
     if depth == nil then
         depth = 0
@@ -20,23 +19,23 @@ function dump_table(o, depth)
 end
 
 function has(item, amount)
-	local count = Tracker:ProviderCountForCode(item)
-	amount = tonumber(amount)
-	if not amount then
-	  return count > 0
-	else
-	  return count == amount
-	end
+    local count = Tracker:ProviderCountForCode(item)
+    amount = tonumber(amount)
+    if not amount then
+        return count > 0
+    else
+        return count == amount
+    end
 end
 
 function has(item)
     return Tracker:ProviderCountForCode(item) == 1
-  end
-  
+end
+
 function checkRequirements(reference, check_count)
     local reqCount = Tracker:ProviderCountForCode(reference)
     local count = Tracker:ProviderCountForCode(check_count)
-  
+
     if count >= reqCount then
         return true
     else
@@ -45,11 +44,10 @@ function checkRequirements(reference, check_count)
 end
 
 function Gomode()
-    return (((has("darkmatterhuntoff") and has("crystal")) or 
-            (has("darkmatterhunton") and Tracker:FindObjectForCode("darkmatter").AcquiredCount >= 30)) 
-            and ((has("pass") and has("passenabledon")) or has("darknesscrystal")))
+    return (((has("darkmatterhuntoff") and has("crystal")) or
+            (has("darkmatterhunton") and Tracker:FindObjectForCode("darkmatter").AcquiredCount >= 30))
+        and ((has("pass") and has("passenabledon")) or has("darknesscrystal")))
 end
-
 
 function CrystalForGoMode()
     if Tracker:FindObjectForCode("crystal").Active == true then

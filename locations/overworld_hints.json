@@ -1,7 +1,9 @@
 [
     {
         "name": "Overworld Hints",
-        "access_rules":["{}"],
+        "access_rules": [
+            "{}"
+        ],
         "children": [
             {
                 "name": "Baron Town Hints",
@@ -12,97 +14,133 @@
                         "name": "Baron Town -- Exterior -- pot outside inn (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["baron_town_exterior_pot_outside_inn"]
+                        "visibility_rules": [
+                            "baron_town_exterior_pot_outside_inn"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Inn -- pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["baron_town_inn_pot"]
+                        "visibility_rules": [
+                            "baron_town_inn_pot"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Inn -- treasury, left (Hint)",
-                        "visibility_rules": ["baron_town_inn_treasury_left"]
+                        "visibility_rules": [
+                            "baron_town_inn_treasury_left"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Inn -- treasury, middle (Hint)",
-                        "visibility_rules": ["baron_town_inn_treasury_middle"]
+                        "visibility_rules": [
+                            "baron_town_inn_treasury_middle"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Inn -- treasury, right (Hint)",
-                        "visibility_rules": ["baron_town_inn_treasury_right"]
+                        "visibility_rules": [
+                            "baron_town_inn_treasury_right"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Rosa's house -- pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["baron_town_rosas_house_pot"]
+                        "visibility_rules": [
+                            "baron_town_rosas_house_pot"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Rosa's house -- shelf (Hint)",
                         "chest_unopened_img": "images/icons/shelf_unopened.png",
                         "chest_opened_img": "images/icons/shelf_opened.png",
-                        "visibility_rules": ["baron_town_rosas_house_shelf"]
+                        "visibility_rules": [
+                            "baron_town_rosas_house_shelf"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Exterior -- pot outside Rosa's (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["baron_town_exterior_pot_outside_rosas"]
+                        "visibility_rules": [
+                            "baron_town_exterior_pot_outside_rosas"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Exterior -- water, top (Hint)",
                         "chest_unopened_img": "images/icons/water_unopened.png",
                         "chest_opened_img": "images/icons/water_opened.png",
-                        "visibility_rules": ["baron_town_exterior_water_top"]
+                        "visibility_rules": [
+                            "baron_town_exterior_water_top"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Exterior -- water, bottom (Hint)",
                         "chest_unopened_img": "images/icons/water_unopened.png",
                         "chest_opened_img": "images/icons/water_opened.png",
-                        "visibility_rules": ["baron_town_exterior_water_bottom"]
+                        "visibility_rules": [
+                            "baron_town_exterior_water_bottom"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Exterior -- grass, left (Hint)",
                         "chest_unopened_img": "images/icons/grass_unopened.png",
                         "chest_opened_img": "images/icons/grass_opened.png",
-                        "visibility_rules": ["baron_town_exterior_grass_left"]
+                        "visibility_rules": [
+                            "baron_town_exterior_grass_left"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Exterior -- grass, top (Hint)",
                         "chest_unopened_img": "images/icons/grass_unopened.png",
                         "chest_opened_img": "images/icons/grass_opened.png",
-                        "visibility_rules": ["baron_town_exterior_grass_top"]
+                        "visibility_rules": [
+                            "baron_town_exterior_grass_top"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Exterior -- grass, bottom (Hint)",
                         "chest_unopened_img": "images/icons/grass_unopened.png",
                         "chest_opened_img": "images/icons/grass_opened.png",
-                        "visibility_rules": ["baron_town_exterior_grass_bottom"]
+                        "visibility_rules": [
+                            "baron_town_exterior_grass_bottom"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Weapon-armor shop -- weapon (Hint)",
-                        "visibility_rules": ["baron_town_weapon_armor_shop_weapon"]
+                        "visibility_rules": [
+                            "baron_town_weapon_armor_shop_weapon"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Weapon-armor shop -- armor (Hint)",
-                        "visibility_rules": ["baron_town_weapon_armor_shop_armor"]
+                        "visibility_rules": [
+                            "baron_town_weapon_armor_shop_armor"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Access to Old Water-way -- hidden chest (Hint)",
-                        "visibility_rules": ["baron_town_access_old_waterway_hidden_chest"]
+                        "visibility_rules": [
+                            "baron_town_access_old_waterway_hidden_chest"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Inn -- item (Hint)",
                         "chest_unopened_img": "images/icons/key_baron_unopened.png",
                         "chest_opened_img": "images/icons/key_baron_opened.png",
-                        "visibility_rules": ["baron_town_inn_item"]
+                        "visibility_rules": [
+                            "baron_town_inn_item"
+                        ]
                     },
                     {
                         "name": "Baron Inn Character (Hint)",
                         "chest_unopened_img": "images/characters/yang.png",
                         "chest_opened_img": "images/characters/yangdisabled.png",
-                        "visibility_rules": ["baron_inn_character"]
+                        "visibility_rules": [
+                            "baron_inn_character"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -120,7 +158,9 @@
                 "sections": [
                     {
                         "name": "Baron Chocobo Forest --  -- grass (Hint)",
-                        "visibility_rules": ["baron_chocobo_forest_grass"]
+                        "visibility_rules": [
+                            "baron_chocobo_forest_grass"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -138,19 +178,27 @@
                 "sections": [
                     {
                         "name": "Mist Cave -- top left (Hint)",
-                        "visibility_rules": ["mist_cave_top_left"]
+                        "visibility_rules": [
+                            "mist_cave_top_left"
+                        ]
                     },
                     {
                         "name": "Mist Cave -- top right (Hint)",
-                        "visibility_rules": ["mist_cave_top_right"]
+                        "visibility_rules": [
+                            "mist_cave_top_right"
+                        ]
                     },
                     {
                         "name": "Mist Cave -- center (Hint)",
-                        "visibility_rules": ["mist_cave_center"]
+                        "visibility_rules": [
+                            "mist_cave_center"
+                        ]
                     },
                     {
                         "name": "Mist Cave -- bottom right (Hint)",
-                        "visibility_rules": ["mist_cave_bottom_right"]
+                        "visibility_rules": [
+                            "mist_cave_bottom_right"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -175,45 +223,63 @@
                         "name": "Mist Village -- Exterior -- north grass (Hint)",
                         "chest_unopened_img": "images/icons/grass_unopened.png",
                         "chest_opened_img": "images/icons/grass_opened.png",
-                        "visibility_rules": ["mist_village_exterior_north_grass"]
+                        "visibility_rules": [
+                            "mist_village_exterior_north_grass"
+                        ]
                     },
                     {
                         "name": "Mist Village -- Exterior -- south grass, left (Hint)",
                         "chest_unopened_img": "images/icons/grass_unopened.png",
                         "chest_opened_img": "images/icons/grass_opened.png",
-                        "visibility_rules": ["mist_village_exterior_south_grass_left"]
+                        "visibility_rules": [
+                            "mist_village_exterior_south_grass_left"
+                        ]
                     },
                     {
                         "name": "Mist Village -- Exterior -- south grass, right (Hint)",
                         "chest_unopened_img": "images/icons/grass_unopened.png",
                         "chest_opened_img": "images/icons/grass_opened.png",
-                        "visibility_rules": ["mist_village_exterior_south_grass_right"]
+                        "visibility_rules": [
+                            "mist_village_exterior_south_grass_right"
+                        ]
                     },
                     {
                         "name": "Mist Village -- Rydia's house -- crawlspace, top left (Hint)",
-                        "visibility_rules": ["mist_village_rydias_house_crawlspace_top_left"]
+                        "visibility_rules": [
+                            "mist_village_rydias_house_crawlspace_top_left"
+                        ]
                     },
                     {
                         "name": "Mist Village -- Rydia's house -- crawlspace, top right (Hint)",
-                        "visibility_rules": ["mist_village_rydias_house_crawlspace_top_right"]
+                        "visibility_rules": [
+                            "mist_village_rydias_house_crawlspace_top_right"
+                        ]
                     },
                     {
                         "name": "Mist Village -- Rydia's house -- crawlspace, bottom right (Hint)",
-                        "visibility_rules": ["mist_village_rydias_house_crawlspace_bottom_right"]
+                        "visibility_rules": [
+                            "mist_village_rydias_house_crawlspace_bottom_right"
+                        ]
                     },
                     {
                         "name": "Mist Village -- Rydia's house -- tiara room (Hint)",
-                        "visibility_rules": ["mist_village_rydias_house_tiara_room"]
+                        "visibility_rules": [
+                            "mist_village_rydias_house_tiara_room"
+                        ]
                     },
                     {
                         "name": "Mist -- Exterior -- Rydia's Mom item (Hint)",
                         "chest_unopened_img": "images/icons/rydias_mom_unopened.png",
                         "chest_opened_img": "images/icons/rydias_mom_opened.png",
-                        "visibility_rules": ["mist_exterior_rydias_mom_item"]
+                        "visibility_rules": [
+                            "mist_exterior_rydias_mom_item"
+                        ]
                     },
                     {
                         "name": "Mist Character (Hint)",
-                        "visibility_rules": ["mist_character"],
+                        "visibility_rules": [
+                            "mist_character"
+                        ],
                         "chest_unopened_img": "images/characters/rydia.png",
                         "chest_opened_img": "images/characters/rydiadisabled.png"
                     }
@@ -233,11 +299,15 @@
                         "name": "Kaipo -- Exterior -- pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["kaipo_exterior_pot"]
+                        "visibility_rules": [
+                            "kaipo_exterior_pot"
+                        ]
                     },
                     {
                         "name": "Kaipo Character (Hint)",
-                        "visibility_rules": ["kaipo_character"],
+                        "visibility_rules": [
+                            "kaipo_character"
+                        ],
                         "chest_unopened_img": "images/characters/rosa.png",
                         "chest_opened_img": "images/characters/rosadisabled.png"
                     }
@@ -257,85 +327,125 @@
                 "sections": [
                     {
                         "name": "Watery Pass -- Entrance (South) -- rightmost (Hint)",
-                        "visibility_rules": ["watery_pass_entrance_south_rightmost"]
+                        "visibility_rules": [
+                            "watery_pass_entrance_south_rightmost"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Entrance (South) -- center-right (Hint)",
-                        "visibility_rules": ["watery_pass_entrance_south_center_right"]
+                        "visibility_rules": [
+                            "watery_pass_entrance_south_center_right"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Entrance (South) -- bottom left (Hint)",
-                        "visibility_rules": ["watery_pass_entrance_south_bottom_left"]
+                        "visibility_rules": [
+                            "watery_pass_entrance_south_bottom_left"
+                        ]
                     },
                     {
                         "name": "Watery Pass Character (Hint)",
-                        "visibility_rules": ["watery_pass_character"],
+                        "visibility_rules": [
+                            "watery_pass_character"
+                        ],
                         "chest_unopened_img": "images/characters/tellah.png",
                         "chest_opened_img": "images/characters/tellahdisabled.png"
                     },
                     {
                         "name": "Watery Pass -- Entrance (South) -- center (Hint)",
-                        "visibility_rules": ["watery_pass_entrance_south_center"]
+                        "visibility_rules": [
+                            "watery_pass_entrance_south_center"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Entrance (South) -- top right (Hint)",
-                        "visibility_rules": ["watery_pass_entrance_south_top_right"]
+                        "visibility_rules": [
+                            "watery_pass_entrance_south_top_right"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Behind waterfall -- left (Hint)",
-                        "visibility_rules": ["watery_pass_behind_waterfall_left"]
+                        "visibility_rules": [
+                            "watery_pass_behind_waterfall_left"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Behind waterfall -- middle (Hint)",
-                        "visibility_rules": ["watery_pass_behind_waterfall_middle"]
+                        "visibility_rules": [
+                            "watery_pass_behind_waterfall_middle"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Behind waterfall -- right (Hint)",
-                        "visibility_rules": ["watery_pass_behind_waterfall_right"]
+                        "visibility_rules": [
+                            "watery_pass_behind_waterfall_right"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Camp level (B2F) -- top right (Hint)",
-                        "visibility_rules": ["watery_pass_camp_level_b2f_top_right"]
+                        "visibility_rules": [
+                            "watery_pass_camp_level_b2f_top_right"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Camp level (B2F) -- bottom left (Hint)",
-                        "visibility_rules": ["watery_pass_camp_level_b2f_bottom_left"]
+                        "visibility_rules": [
+                            "watery_pass_camp_level_b2f_bottom_left"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Camp level (B2F) -- top left (Hint)",
-                        "visibility_rules": ["watery_pass_camp_level_b2f_top_left"]
+                        "visibility_rules": [
+                            "watery_pass_camp_level_b2f_top_left"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- B3F -- right (Hint)",
-                        "visibility_rules": ["watery_pass_b3f_right"]
+                        "visibility_rules": [
+                            "watery_pass_b3f_right"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- B3F -- left (Hint)",
-                        "visibility_rules": ["watery_pass_b3f_left"]
+                        "visibility_rules": [
+                            "watery_pass_b3f_left"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Passage to exit (B2F) -- left (Hint)",
-                        "visibility_rules": ["watery_pass_passage_to_exit_b2f_left"]
+                        "visibility_rules": [
+                            "watery_pass_passage_to_exit_b2f_left"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Passage to exit (B2F) -- right (Hint)",
-                        "visibility_rules": ["watery_pass_passage_to_exit_b2f_right"]
+                        "visibility_rules": [
+                            "watery_pass_passage_to_exit_b2f_right"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Exit (North) -- leftmost (Hint)",
-                        "visibility_rules": ["watery_pass_exit_north_leftmost"]
+                        "visibility_rules": [
+                            "watery_pass_exit_north_leftmost"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Exit (North) -- top left (Hint)",
-                        "visibility_rules": ["watery_pass_exit_north_top_left"]
+                        "visibility_rules": [
+                            "watery_pass_exit_north_top_left"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Exit (North) -- bridge chest (Hint)",
-                        "visibility_rules": ["watery_pass_exit_north_bridge_chest"]
+                        "visibility_rules": [
+                            "watery_pass_exit_north_bridge_chest"
+                        ]
                     },
                     {
                         "name": "Watery Pass -- Exit (North) -- bottom right (Hint)",
-                        "visibility_rules": ["watery_pass_exit_north_bottom_right"]
+                        "visibility_rules": [
+                            "watery_pass_exit_north_bottom_right"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -353,19 +463,27 @@
                 "sections": [
                     {
                         "name": "Waterfall -- B2F -- left (Hint)",
-                        "visibility_rules": ["waterfall_b2f_left"]
+                        "visibility_rules": [
+                            "waterfall_b2f_left"
+                        ]
                     },
                     {
                         "name": "Waterfall -- B2F -- right (Hint)",
-                        "visibility_rules": ["waterfall_b2f_right"]
+                        "visibility_rules": [
+                            "waterfall_b2f_right"
+                        ]
                     },
                     {
                         "name": "Waterfall -- Lake -- right (Hint)",
-                        "visibility_rules": ["waterfall_lake_right"]
+                        "visibility_rules": [
+                            "waterfall_lake_right"
+                        ]
                     },
                     {
                         "name": "Waterfall -- Lake -- bottom (Hint)",
-                        "visibility_rules": ["waterfall_lake_bottom"]
+                        "visibility_rules": [
+                            "waterfall_lake_bottom"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -383,65 +501,93 @@
                 "sections": [
                     {
                         "name": "Damcyan -- 2F -- chest (Hint)",
-                        "visibility_rules": ["damcyan_2f_chest"]
+                        "visibility_rules": [
+                            "damcyan_2f_chest"
+                        ]
                     },
                     {
                         "name": "Damcyan -- Treasury entrance -- west cell (Hint)",
-                        "visibility_rules": ["damcyan_treasury_entrance_west_cell"]
+                        "visibility_rules": [
+                            "damcyan_treasury_entrance_west_cell"
+                        ]
                     },
                     {
                         "name": "Damcyan -- Treasury entrance -- middle cell, left (Hint)",
-                        "visibility_rules": ["damcyan_treasury_entrance_middle_cell_left"]
+                        "visibility_rules": [
+                            "damcyan_treasury_entrance_middle_cell_left"
+                        ]
                     },
                     {
                         "name": "Damcyan -- Treasury entrance -- middle cell, right (Hint)",
-                        "visibility_rules": ["damcyan_treasury_entrance_middle_cell_right"]
+                        "visibility_rules": [
+                            "damcyan_treasury_entrance_middle_cell_right"
+                        ]
                     },
                     {
                         "name": "Damcyan -- Treasury -- top left chest (Hint)",
-                        "visibility_rules": ["damcyan_treasury_top_left_chest"]
+                        "visibility_rules": [
+                            "damcyan_treasury_top_left_chest"
+                        ]
                     },
                     {
                         "name": "Damcyan -- Treasury -- top middle chest (Hint)",
-                        "visibility_rules": ["damcyan_treasury_top_middle_chest"]
+                        "visibility_rules": [
+                            "damcyan_treasury_top_middle_chest"
+                        ]
                     },
                     {
                         "name": "Damcyan -- Treasury -- top right chest (Hint)",
-                        "visibility_rules": ["damcyan_treasury_top_right_chest"]
+                        "visibility_rules": [
+                            "damcyan_treasury_top_right_chest"
+                        ]
                     },
                     {
                         "name": "Damcyan -- Treasury -- top right pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["damcyan_treasury_top_right_pot"]
+                        "visibility_rules": [
+                            "damcyan_treasury_top_right_pot"
+                        ]
                     },
                     {
                         "name": "Damcyan -- Treasury -- bottom left pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["damcyan_treasury_bottom_left_pot"]
+                        "visibility_rules": [
+                            "damcyan_treasury_bottom_left_pot"
+                        ]
                     },
                     {
                         "name": "Damcyan -- Treasury -- bottom left chest (Hint)",
-                        "visibility_rules": ["damcyan_treasury_bottom_left_chest"]
+                        "visibility_rules": [
+                            "damcyan_treasury_bottom_left_chest"
+                        ]
                     },
                     {
                         "name": "Damcyan -- Treasury -- bottom middle chest (Hint)",
-                        "visibility_rules": ["damcyan_treasury_bottom_middle_chest"]
+                        "visibility_rules": [
+                            "damcyan_treasury_bottom_middle_chest"
+                        ]
                     },
                     {
                         "name": "Damcyan -- Treasury -- bottom right chest (Hint)",
-                        "visibility_rules": ["damcyan_treasury_bottom_right_chest"]
+                        "visibility_rules": [
+                            "damcyan_treasury_bottom_right_chest"
+                        ]
                     },
                     {
                         "name": "Damcyan -- Treasury -- bottom right pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["damcyan_treasury_bottom_right_pot"]
+                        "visibility_rules": [
+                            "damcyan_treasury_bottom_right_pot"
+                        ]
                     },
                     {
                         "name": "Damcyan Character (Hint)",
-                        "visibility_rules": ["damcyan_character"],
+                        "visibility_rules": [
+                            "damcyan_character"
+                        ],
                         "chest_unopened_img": "images/characters/edward.png",
                         "chest_opened_img": "images/characters/edwarddisabled.png"
                     }
@@ -461,61 +607,89 @@
                 "sections": [
                     {
                         "name": "Antlion Cave -- B1F -- top left (Hint)",
-                        "visibility_rules": ["antlion_cave_b1f_top_left"]
+                        "visibility_rules": [
+                            "antlion_cave_b1f_top_left"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- B1F -- top center-left (Hint)",
-                        "visibility_rules": ["antlion_cave_b1f_top_center_left"]
+                        "visibility_rules": [
+                            "antlion_cave_b1f_top_center_left"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- B1F -- bottom left (Hint)",
-                        "visibility_rules": ["antlion_cave_b1f_bottom_left"]
+                        "visibility_rules": [
+                            "antlion_cave_b1f_bottom_left"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- B1F -- middle left (Hint)",
-                        "visibility_rules": ["antlion_cave_b1f_middle_left"]
+                        "visibility_rules": [
+                            "antlion_cave_b1f_middle_left"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- B1F -- top right (Hint)",
-                        "visibility_rules": ["antlion_cave_b1f_top_right"]
+                        "visibility_rules": [
+                            "antlion_cave_b1f_top_right"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- B1F -- middle right (Hint)",
-                        "visibility_rules": ["antlion_cave_b1f_middle_right"]
+                        "visibility_rules": [
+                            "antlion_cave_b1f_middle_right"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- B2F -- top right (Hint)",
-                        "visibility_rules": ["antlion_cave_b2f_top_right"]
+                        "visibility_rules": [
+                            "antlion_cave_b2f_top_right"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- B2F -- bottom right (Hint)",
-                        "visibility_rules": ["antlion_cave_b2f_bottom_right"]
+                        "visibility_rules": [
+                            "antlion_cave_b2f_bottom_right"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- B2F -- top left (Hint)",
-                        "visibility_rules": ["antlion_cave_b2f_top_left"]
+                        "visibility_rules": [
+                            "antlion_cave_b2f_top_left"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- Save room -- right (Hint)",
-                        "visibility_rules": ["antlion_cave_save_room_right"]
+                        "visibility_rules": [
+                            "antlion_cave_save_room_right"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- Save room -- top (Hint)",
-                        "visibility_rules": ["antlion_cave_save_room_top"]
+                        "visibility_rules": [
+                            "antlion_cave_save_room_top"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- Save room -- left (Hint)",
-                        "visibility_rules": ["antlion_cave_save_room_left"]
+                        "visibility_rules": [
+                            "antlion_cave_save_room_left"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- Treasure room -- chest (Hint)",
-                        "visibility_rules": ["antlion_cave_treasure_room_chest"]
+                        "visibility_rules": [
+                            "antlion_cave_treasure_room_chest"
+                        ]
                     },
                     {
                         "name": "Antlion Cave -- B3F -- Antlion Nest item (Hint)",
                         "chest_unopened_img": "images/icons/key_antlion_unopened.png",
                         "chest_opened_img": "images/icons/key_antlion_opened.png",
-                        "visibility_rules": ["antlion_cave_b3f_antlion_nest_item"]
+                        "visibility_rules": [
+                            "antlion_cave_b3f_antlion_nest_item"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -526,8 +700,6 @@
                     }
                 ]
             },
-
-            
             {
                 "name": "Mt. Hobs Hints",
                 "chest_unopened_img": "images/icons/chest_red_unopened.png",
@@ -535,29 +707,41 @@
                 "sections": [
                     {
                         "name": "Mt. Hobs Character (Hint)",
-                        "visibility_rules": ["mt_hobs_character"],
+                        "visibility_rules": [
+                            "mt_hobs_character"
+                        ],
                         "chest_unopened_img": "images/characters/yang.png",
                         "chest_opened_img": "images/characters/yangdisabled.png"
                     },
                     {
                         "name": "Mt. Hobs -- Summit -- chest (Hint)",
-                        "visibility_rules": ["mt_hobs_summit_chest"]
+                        "visibility_rules": [
+                            "mt_hobs_summit_chest"
+                        ]
                     },
                     {
                         "name": "Mt. Hobs -- Save area -- leftmost (Hint)",
-                        "visibility_rules": ["mt_hobs_save_area_leftmost"]
+                        "visibility_rules": [
+                            "mt_hobs_save_area_leftmost"
+                        ]
                     },
                     {
                         "name": "Mt. Hobs -- Save area -- center-left (Hint)",
-                        "visibility_rules": ["mt_hobs_save_area_center_left"]
+                        "visibility_rules": [
+                            "mt_hobs_save_area_center_left"
+                        ]
                     },
                     {
                         "name": "Mt. Hobs -- Save area -- center-right (Hint)",
-                        "visibility_rules": ["mt_hobs_save_area_center_right"]
+                        "visibility_rules": [
+                            "mt_hobs_save_area_center_right"
+                        ]
                     },
                     {
                         "name": "Mt. Hobs -- Save area -- rightmost (Hint)",
-                        "visibility_rules": ["mt_hobs_save_area_rightmost"]
+                        "visibility_rules": [
+                            "mt_hobs_save_area_rightmost"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -577,65 +761,91 @@
                         "name": "Fabul -- Throne room -- west pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["fabul_throne_room_west_pot"]
+                        "visibility_rules": [
+                            "fabul_throne_room_west_pot"
+                        ]
                     },
                     {
                         "name": "Fabul -- Throne room -- top chest (Hint)",
-                        "visibility_rules": ["fabul_throne_room_top_chest"]
+                        "visibility_rules": [
+                            "fabul_throne_room_top_chest"
+                        ]
                     },
                     {
                         "name": "Fabul -- Throne room -- middle chest (Hint)",
-                        "visibility_rules": ["fabul_throne_room_middle_chest"]
+                        "visibility_rules": [
+                            "fabul_throne_room_middle_chest"
+                        ]
                     },
                     {
                         "name": "Fabul -- Throne room -- bottom chest (Hint)",
-                        "visibility_rules": ["fabul_throne_room_bottom_chest"]
+                        "visibility_rules": [
+                            "fabul_throne_room_bottom_chest"
+                        ]
                     },
                     {
                         "name": "Fabul -- East tower 2F -- pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["fabul_east_tower_2f_pot"]
+                        "visibility_rules": [
+                            "fabul_east_tower_2f_pot"
+                        ]
                     },
                     {
                         "name": "Fabul -- East tower 3F (king's bedroom) -- chest (Hint)",
-                        "visibility_rules": ["fabul_east_tower_3f_king_bedroom_chest"]
+                        "visibility_rules": [
+                            "fabul_east_tower_3f_king_bedroom_chest"
+                        ]
                     },
                     {
                         "name": "Fabul -- West tower 1F -- top chest (Hint)",
-                        "visibility_rules": ["fabul_west_tower_1f_top_chest"]
+                        "visibility_rules": [
+                            "fabul_west_tower_1f_top_chest"
+                        ]
                     },
                     {
                         "name": "Fabul -- West tower 1F -- pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["fabul_west_tower_1f_pot"]
+                        "visibility_rules": [
+                            "fabul_west_tower_1f_pot"
+                        ]
                     },
                     {
                         "name": "Fabul -- West tower 1F -- middle chest (Hint)",
-                        "visibility_rules": ["fabul_west_tower_1f_middle_chest"]
+                        "visibility_rules": [
+                            "fabul_west_tower_1f_middle_chest"
+                        ]
                     },
                     {
                         "name": "Fabul -- West tower 1F -- bottom chest (Hint)",
-                        "visibility_rules": ["fabul_west_tower_1f_bottom_chest"]
+                        "visibility_rules": [
+                            "fabul_west_tower_1f_bottom_chest"
+                        ]
                     },
                     {
                         "name": "Fabul -- East tower 3F (king's bedroom) -- Defend Fabul reward item (Hint)",
                         "chest_unopened_img": "images/icons/key_gauntlet_unopened.png",
                         "chest_opened_img": "images/icons/key_gauntlet_opened.png",
-                        "visibility_rules": ["fabul_east_tower_3f_defend_fabul_reward_item"]
+                        "visibility_rules": [
+                            "fabul_east_tower_3f_defend_fabul_reward_item"
+                        ]
                     },
                     {
                         "name": "Fabul -- West tower 3F (Yang's room) -- Found Yang item (Hint)",
                         "chest_unopened_img": "images/icons/key_pan_unopened.png",
                         "chest_opened_img": "images/icons/key_pan_opened.png",
-                        "visibility_rules": ["fabul_west_tower_3f_yangs_room_found_yang_item"]
+                        "visibility_rules": [
+                            "fabul_west_tower_3f_yangs_room_found_yang_item"
+                        ]
                     },
                     {
                         "name": "Fabul -- West tower 3F (Yang's room) -- Pan Trade item (Hint)",
                         "chest_unopened_img": "images/icons/key_spoon_unopened.png",
                         "chest_opened_img": "images/icons/key_spoon_opened.png",
-                        "visibility_rules": ["fabul_west_tower_3f_yangs_room_pan_trade_item"]
+                        "visibility_rules": [
+                            "fabul_west_tower_3f_yangs_room_pan_trade_item"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -653,7 +863,9 @@
                         "name": "Fabul Chocobo Forest --  -- grass (Hint)",
                         "chest_unopened_img": "images/icons/grass_unopened.png",
                         "chest_opened_img": "images/icons/grass_opened.png",
-                        "visibility_rules": ["fabul_chocobo_forest_grass"]
+                        "visibility_rules": [
+                            "fabul_chocobo_forest_grass"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -671,15 +883,21 @@
                 "sections": [
                     {
                         "name": "Silvera -- Exterior -- north grass (Hint)",
-                        "visibility_rules": ["silvera_exterior_north_grass"]
+                        "visibility_rules": [
+                            "silvera_exterior_north_grass"
+                        ]
                     },
                     {
                         "name": "Silvera -- Exterior -- northeast grass (Hint)",
-                        "visibility_rules": ["silvera_exterior_northeast_grass"]
+                        "visibility_rules": [
+                            "silvera_exterior_northeast_grass"
+                        ]
                     },
                     {
                         "name": "Silvera -- Exterior -- east grass (Hint)",
-                        "visibility_rules": ["silvera_exterior_east_grass"]
+                        "visibility_rules": [
+                            "silvera_exterior_east_grass"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -697,13 +915,17 @@
                         "name": "Adamant -- Cave -- Rat Tail Trade item (Hint)",
                         "chest_unopened_img": "images/icons/key_adamant_unopened.png",
                         "chest_opened_img": "images/icons/key_adamant_opened.png",
-                        "visibility_rules": ["adamant_cave_rat_tail_trade_item"]
+                        "visibility_rules": [
+                            "adamant_cave_rat_tail_trade_item"
+                        ]
                     },
                     {
                         "name": "Adamant -- Cave -- Pink Tail Trade item (Hint)",
                         "chest_unopened_img": "images/icons/key_pink_tail_unopened.png",
                         "chest_opened_img": "images/icons/key_pink_tail_opened.png",
-                        "visibility_rules": ["adamant_cave_pink_tail_trade_item"]
+                        "visibility_rules": [
+                            "adamant_cave_pink_tail_trade_item"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -719,13 +941,17 @@
                 "sections": [
                     {
                         "name": "Mysidia Character 1 (Hint)",
-                        "visibility_rules": ["mysidia_character_1"],
+                        "visibility_rules": [
+                            "mysidia_character_1"
+                        ],
                         "chest_unopened_img": "images/characters/porom.png",
                         "chest_opened_img": "images/characters/poromdisabled.png"
                     },
                     {
                         "name": "Mysidia Character 2 (Hint)",
-                        "visibility_rules": ["mysidia_character_2"],
+                        "visibility_rules": [
+                            "mysidia_character_2"
+                        ],
                         "chest_unopened_img": "images/characters/palom.png",
                         "chest_opened_img": "images/characters/palomdisabled.png"
                     }
@@ -745,31 +971,43 @@
                 "sections": [
                     {
                         "name": "Mt. Ordeals -- 1F -- bottom (Hint)",
-                        "visibility_rules": ["mt_ordeals_1f_bottom"]
+                        "visibility_rules": [
+                            "mt_ordeals_1f_bottom"
+                        ]
                     },
                     {
                         "name": "Mt. Ordeals -- 1F -- top (Hint)",
-                        "visibility_rules": ["mt_ordeals_1f_top"]
+                        "visibility_rules": [
+                            "mt_ordeals_1f_top"
+                        ]
                     },
                     {
                         "name": "Mt. Ordeals Character (Hint)",
-                        "visibility_rules": ["mt_ordeals_character"],
+                        "visibility_rules": [
+                            "mt_ordeals_character"
+                        ],
                         "chest_unopened_img": "images/characters/tellah.png",
                         "chest_opened_img": "images/characters/tellahdisabled.png"
                     },
                     {
                         "name": "Mt. Ordeals -- 3F (7th Station) -- left (Hint)",
-                        "visibility_rules": ["mt_ordeals_3f_left"]
+                        "visibility_rules": [
+                            "mt_ordeals_3f_left"
+                        ]
                     },
                     {
                         "name": "Mt. Ordeals -- 3F (7th Station) -- center (Hint)",
-                        "visibility_rules": ["mt_ordeals_3f_center"]
+                        "visibility_rules": [
+                            "mt_ordeals_3f_center"
+                        ]
                     },
                     {
                         "name": "Mt. Ordeals -- Mirror Room -- item (Hint)",
                         "chest_unopened_img": "images/characters/cecil.png",
                         "chest_opened_img": "images/characters/cecildisabled.png",
-                        "visibility_rules": ["mt_ordeals_mirror_room_item"]
+                        "visibility_rules": [
+                            "mt_ordeals_mirror_room_item"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -787,7 +1025,9 @@
                 "sections": [
                     {
                         "name": "Mt. Ordeals Chocobo Forest --  -- grass (Hint)",
-                        "visibility_rules": ["mt_ordeals_chocobo_forest_grass"]
+                        "visibility_rules": [
+                            "mt_ordeals_chocobo_forest_grass"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -805,35 +1045,51 @@
                 "sections": [
                     {
                         "name": "Old Water-way -- B1F -- left (Hint)",
-                        "visibility_rules": ["old_water_way_b1f_left"]
+                        "visibility_rules": [
+                            "old_water_way_b1f_left"
+                        ]
                     },
                     {
                         "name": "Old Water-way -- B1F -- middle (Hint)",
-                        "visibility_rules": ["old_water_way_b1f_middle"]
+                        "visibility_rules": [
+                            "old_water_way_b1f_middle"
+                        ]
                     },
                     {
                         "name": "Old Water-way -- B1F -- right (Hint)",
-                        "visibility_rules": ["old_water_way_b1f_right"]
+                        "visibility_rules": [
+                            "old_water_way_b1f_right"
+                        ]
                     },
                     {
                         "name": "Old Water-way -- B3F -- west (Hint)",
-                        "visibility_rules": ["old_water_way_b3f_west"]
+                        "visibility_rules": [
+                            "old_water_way_b3f_west"
+                        ]
                     },
                     {
                         "name": "Old Water-way -- B3F -- southwest (Hint)",
-                        "visibility_rules": ["old_water_way_b3f_southwest"]
+                        "visibility_rules": [
+                            "old_water_way_b3f_southwest"
+                        ]
                     },
                     {
                         "name": "Old Water-way -- B3F -- center (Hint)",
-                        "visibility_rules": ["old_water_way_b3f_center"]
+                        "visibility_rules": [
+                            "old_water_way_b3f_center"
+                        ]
                     },
                     {
                         "name": "Old Water-way -- Save room -- hidden chest (Hint)",
-                        "visibility_rules": ["old_water_way_save_room_hidden_chest"]
+                        "visibility_rules": [
+                            "old_water_way_save_room_hidden_chest"
+                        ]
                     },
                     {
                         "name": "Old Water-way -- B2F -- chest (Hint)",
-                        "visibility_rules": ["old_water_way_b2f_chest"]
+                        "visibility_rules": [
+                            "old_water_way_b2f_chest"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -851,155 +1107,207 @@
                         "name": "Starting Character 1 (Hint)",
                         "chest_unopened_img": "images/characters/cecil.png",
                         "chest_opened_img": "images/characters/cecildisabled.png",
-                        "visibility_rules": ["starting_character_1"]
+                        "visibility_rules": [
+                            "starting_character_1"
+                        ]
                     },
                     {
                         "name": "Starting Character 2 (Hint)",
                         "chest_unopened_img": "images/characters/kain.png",
                         "chest_opened_img": "images/characters/kaindisabled.png",
-                        "visibility_rules": ["starting_character_2"]
+                        "visibility_rules": [
+                            "starting_character_2"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- 1F -- Starting item (Hint)",
                         "chest_unopened_img": "images/icons/key_package_unopened.png",
                         "chest_opened_img": "images/icons/key_package_opened.png",
-                        "visibility_rules": ["baron_castle_1f_starting_item"]
+                        "visibility_rules": [
+                            "baron_castle_1f_starting_item"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- 1F -- left (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_1f_left"]
+                        "visibility_rules": [
+                            "baron_castle_1f_left"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- 1F -- middle (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_1f_middle"]
+                        "visibility_rules": [
+                            "baron_castle_1f_middle"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- 1F -- right (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_1f_right"]
+                        "visibility_rules": [
+                            "baron_castle_1f_right"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East hall treasury -- top left (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_hall_treasure_top_left"]
+                        "visibility_rules": [
+                            "baron_castle_east_hall_treasure_top_left"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East hall treasury -- top middle (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_hall_treasure_top_middle"]
+                        "visibility_rules": [
+                            "baron_castle_east_hall_treasure_top_middle"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East hall treasury -- top right (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_hall_treasure_top_right"]
+                        "visibility_rules": [
+                            "baron_castle_east_hall_treasure_top_right"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East hall treasury -- bottom left (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_hall_treasure_bottom_left"]
+                        "visibility_rules": [
+                            "baron_castle_east_hall_treasure_bottom_left"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East hall treasury -- bottom middle (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_hall_treasure_bottom_middle"]
+                        "visibility_rules": [
+                            "baron_castle_east_hall_treasure_bottom_middle"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East hall treasury -- bottom right (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_hall_treasure_bottom_right"]
+                        "visibility_rules": [
+                            "baron_castle_east_hall_treasure_bottom_right"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East tower 1F -- top (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_tower_1f_top"]
+                        "visibility_rules": [
+                            "baron_castle_east_tower_1f_top"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East tower 1F -- leftmost (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png (Hint)",
-                        "visibility_rules": ["baron_castle_east_tower_1f_leftmost"]
+                        "visibility_rules": [
+                            "baron_castle_east_tower_1f_leftmost"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East tower 1F -- middle left (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_tower_1f_middle_left"]
+                        "visibility_rules": [
+                            "baron_castle_east_tower_1f_middle_left"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East tower 1F -- right (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_tower_1f_right"]
+                        "visibility_rules": [
+                            "baron_castle_east_tower_1f_right"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East tower 2F -- left, top (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png (Hint)",
-                        "visibility_rules": ["baron_castle_east_tower_2f_left_top"]
+                        "visibility_rules": [
+                            "baron_castle_east_tower_2f_left_top"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East tower 2F -- left, bottom (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_tower_2f_left_bottom"]
+                        "visibility_rules": [
+                            "baron_castle_east_tower_2f_left_bottom"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East tower 3F -- pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["baron_castle_east_tower_3f_pot"]
+                        "visibility_rules": [
+                            "baron_castle_east_tower_3f_pot"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East tower 3F -- left chest (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_tower_3f_left_chest"]
+                        "visibility_rules": [
+                            "baron_castle_east_tower_3f_left_chest"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East tower 3F -- middle chest (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_tower_3f_middle_chest"]
+                        "visibility_rules": [
+                            "baron_castle_east_tower_3f_middle_chest"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East tower 3F -- right chest (Hint)",
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png",
-                        "visibility_rules": ["baron_castle_east_tower_3f_right_chest"]
+                        "visibility_rules": [
+                            "baron_castle_east_tower_3f_right_chest"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- East tower B1 -- pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["baron_castle_east_tower_b1_pot"]
+                        "visibility_rules": [
+                            "baron_castle_east_tower_b1_pot"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- Throne Room -- item (Hint)",
                         "chest_unopened_img": "images/icons/boss_kainazzo_unopened.png",
                         "chest_opened_img": "images/icons/boss_kainazzo_opened.png",
-                        "visibility_rules": ["baron_castle_throne_room_item"]
+                        "visibility_rules": [
+                            "baron_castle_throne_room_item"
+                        ]
                     },
                     {
                         "name": "Baron Castle -- Basement -- Odin item (Hint)",
                         "chest_unopened_img": "images/icons/boss_odin_unopened.png",
                         "chest_opened_img": "images/icons/boss_odin_opened.png",
-                        "visibility_rules": ["baron_castle_basement_odin_item"]
+                        "visibility_rules": [
+                            "baron_castle_basement_odin_item"
+                        ]
                     },
                     {
                         "name": "Baron Castle Character (Hint)",
-                        "visibility_rules": ["baron_castle_character"],
+                        "visibility_rules": [
+                            "baron_castle_character"
+                        ],
                         "chest_unopened_img": "images/characters/cid.png",
                         "chest_opened_img": "images/characters/ciddisabled.png"
                     }
@@ -1019,7 +1327,9 @@
                 "sections": [
                     {
                         "name": "Island Chocobo Forest --  -- grass (Hint)",
-                        "visibility_rules": ["island_chocobo_forest_grass"]
+                        "visibility_rules": [
+                            "island_chocobo_forest_grass"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1037,7 +1347,9 @@
                 "sections": [
                     {
                         "name": "Toroia South Chocobo Forest --  -- grass (Hint)",
-                        "visibility_rules": ["toroia_south_chocobo_forest_grass"]
+                        "visibility_rules": [
+                            "toroia_south_chocobo_forest_grass"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1055,19 +1367,27 @@
                 "sections": [
                     {
                         "name": "Toroia Town -- Exterior -- grass, top right (Hint)",
-                        "visibility_rules": ["toroia_town_exterior_grass_top_right"]
+                        "visibility_rules": [
+                            "toroia_town_exterior_grass_top_right"
+                        ]
                     },
                     {
                         "name": "Toroia Town -- Exterior -- grass, left (Hint)",
-                        "visibility_rules": ["toroia_town_exterior_grass_left"]
+                        "visibility_rules": [
+                            "toroia_town_exterior_grass_left"
+                        ]
                     },
                     {
                         "name": "Toroia Town -- Exterior -- grass, bottom left (Hint)",
-                        "visibility_rules": ["toroia_town_exterior_grass_bottom_left"]
+                        "visibility_rules": [
+                            "toroia_town_exterior_grass_bottom_left"
+                        ]
                     },
                     {
                         "name": "Toroia Town -- Exterior -- grass, bottom right (Hint)",
-                        "visibility_rules": ["toroia_town_exterior_grass_bottom_right"]
+                        "visibility_rules": [
+                            "toroia_town_exterior_grass_bottom_right"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1085,15 +1405,21 @@
                 "sections": [
                     {
                         "name": "Black Chocobo Forest -- northeast, top (Hint)",
-                        "visibility_rules": ["black_chocobo_forest_northeast_top"]
+                        "visibility_rules": [
+                            "black_chocobo_forest_northeast_top"
+                        ]
                     },
                     {
                         "name": "Black Chocobo Forest -- northeast, bottom (Hint)",
-                        "visibility_rules": ["black_chocobo_forest_northeast_bottom"]
+                        "visibility_rules": [
+                            "black_chocobo_forest_northeast_bottom"
+                        ]
                     },
                     {
                         "name": "Black Chocobo Forest -- south grass (Hint)",
-                        "visibility_rules": ["black_chocobo_forest_south_grass"]
+                        "visibility_rules": [
+                            "black_chocobo_forest_south_grass"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1111,49 +1437,71 @@
                 "sections": [
                     {
                         "name": "Cave Magnes -- B1F -- top right (Hint)",
-                        "visibility_rules": ["cave_magnes_b1f_top_right"]
+                        "visibility_rules": [
+                            "cave_magnes_b1f_top_right"
+                        ]
                     },
                     {
                         "name": "Cave Magnes -- B1F -- bottom left (Hint)",
-                        "visibility_rules": ["cave_magnes_b1f_bottom_left"]
+                        "visibility_rules": [
+                            "cave_magnes_b1f_bottom_left"
+                        ]
                     },
                     {
                         "name": "Cave Magnes -- B2F -- chest (Hint)",
-                        "visibility_rules": ["cave_magnes_b2f_chest"]
+                        "visibility_rules": [
+                            "cave_magnes_b2f_chest"
+                        ]
                     },
                     {
                         "name": "Cave Magnes -- Pit room -- left (Hint)",
-                        "visibility_rules": ["cave_magnes_pit_room_left"]
+                        "visibility_rules": [
+                            "cave_magnes_pit_room_left"
+                        ]
                     },
                     {
                         "name": "Cave Magnes -- Pit room -- right (Hint)",
-                        "visibility_rules": ["cave_magnes_pit_room_right"]
+                        "visibility_rules": [
+                            "cave_magnes_pit_room_right"
+                        ]
                     },
                     {
                         "name": "Cave Magnes -- Torch room -- left (Hint)",
-                        "visibility_rules": ["cave_magnes_torch_room_left"]
+                        "visibility_rules": [
+                            "cave_magnes_torch_room_left"
+                        ]
                     },
                     {
                         "name": "Cave Magnes -- Torch room -- center (Hint)",
-                        "visibility_rules": ["cave_magnes_torch_room_center"]
+                        "visibility_rules": [
+                            "cave_magnes_torch_room_center"
+                        ]
                     },
                     {
                         "name": "Cave Magnes -- Torch room -- right (Hint)",
-                        "visibility_rules": ["cave_magnes_torch_room_right"]
+                        "visibility_rules": [
+                            "cave_magnes_torch_room_right"
+                        ]
                     },
                     {
                         "name": "Cave Magnes -- B3F to B4F passage -- chest (Hint)",
-                        "visibility_rules": ["cave_magnes_b3f_to_b4f_passage_chest"]
+                        "visibility_rules": [
+                            "cave_magnes_b3f_to_b4f_passage_chest"
+                        ]
                     },
                     {
                         "name": "Cave Magnes -- B4F -- chest (left of crystal room entrance) (Hint)",
-                        "visibility_rules": ["cave_magnes_b4f_chest_left_of_crystal_room_entrance"]
+                        "visibility_rules": [
+                            "cave_magnes_b4f_chest_left_of_crystal_room_entrance"
+                        ]
                     },
                     {
                         "name": "Cave Magnes -- Crystal Room -- item (Hint)",
                         "chest_unopened_img": "images/icons/key_earth_crystal_unopened.png",
                         "chest_opened_img": "images/icons/key_earth_crystal_opened.png",
-                        "visibility_rules": ["cave_magnes_crystal_room_item"]
+                        "visibility_rules": [
+                            "cave_magnes_crystal_room_item"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1173,117 +1521,173 @@
                         "name": "Toroia Castle -- East wing pot room -- pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["toroia_castle_east_wing_pot_room_pot"]
+                        "visibility_rules": [
+                            "toroia_castle_east_wing_pot_room_pot"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- East wing chest room -- left cell, left (Hint)",
-                        "visibility_rules": ["toroia_castle_east_wing_chest_room_left_cell_left"]
+                        "visibility_rules": [
+                            "toroia_castle_east_wing_chest_room_left_cell_left"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- East wing chest room -- left cell, right (Hint)",
-                        "visibility_rules": ["toroia_castle_east_wing_chest_room_left_cell_right"]
+                        "visibility_rules": [
+                            "toroia_castle_east_wing_chest_room_left_cell_right"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- East wing chest room -- middle-left cell, left (Hint)",
-                        "visibility_rules": ["toroia_castle_east_wing_chest_room_middle_left_cell_left"]
+                        "visibility_rules": [
+                            "toroia_castle_east_wing_chest_room_middle_left_cell_left"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- East wing chest room -- middle-left cell, right (Hint)",
-                        "visibility_rules": ["toroia_castle_east_wing_chest_room_middle_left_cell_right"]
+                        "visibility_rules": [
+                            "toroia_castle_east_wing_chest_room_middle_left_cell_right"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- East wing chest room -- middle-right cell, left (Hint)",
-                        "visibility_rules": ["toroia_castle_east_wing_chest_room_middle_right_cell_left"]
+                        "visibility_rules": [
+                            "toroia_castle_east_wing_chest_room_middle_right_cell_left"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- East wing chest room -- middle-right cell, right (Hint)",
-                        "visibility_rules": ["toroia_castle_east_wing_chest_room_middle_right_cell_right"]
+                        "visibility_rules": [
+                            "toroia_castle_east_wing_chest_room_middle_right_cell_right"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- East wing chest room -- right cell, left (Hint)",
-                        "visibility_rules": ["toroia_castle_east_wing_chest_room_right_cell_left"]
+                        "visibility_rules": [
+                            "toroia_castle_east_wing_chest_room_right_cell_left"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- East wing chest room -- right cell, right (Hint)",
-                        "visibility_rules": ["toroia_castle_east_wing_chest_room_right_cell_right"]
+                        "visibility_rules": [
+                            "toroia_castle_east_wing_chest_room_right_cell_right"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 1 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_top_row_1"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_top_row_1"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 2 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_top_row_2"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_top_row_2"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 3 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_top_row_3"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_top_row_3"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 4 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_top_row_4"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_top_row_4"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 5 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_top_row_5"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_top_row_5"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 6 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_top_row_6"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_top_row_6"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 7 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_top_row_7"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_top_row_7"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 8 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_top_row_8"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_top_row_8"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 9 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_top_row_9"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_top_row_9"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 1 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_bottom_row_1"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_bottom_row_1"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 2 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_bottom_row_2"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_bottom_row_2"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 3 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_bottom_row_3"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_bottom_row_3"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 4 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_bottom_row_4"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_bottom_row_4"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 5 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_bottom_row_5"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_bottom_row_5"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 6 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_bottom_row_6"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_bottom_row_6"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 7 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_bottom_row_7"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_bottom_row_7"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 8 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_bottom_row_8"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_bottom_row_8"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 9 (Hint)",
-                        "visibility_rules": ["toroia_castle_treasury_bottom_row_9"]
+                        "visibility_rules": [
+                            "toroia_castle_treasury_bottom_row_9"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Hospital -- Edward-Toroia item (Hint)",
                         "chest_unopened_img": "images/icons/key_twinharp_unopened.png",
                         "chest_opened_img": "images/icons/key_twinharp_opened.png",
-                        "visibility_rules": ["toroia_castle_hospital_edward_toroia_item"]
+                        "visibility_rules": [
+                            "toroia_castle_hospital_edward_toroia_item"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1301,43 +1705,61 @@
                 "sections": [
                     {
                         "name": "Tower of Zot -- 1F -- chest (Hint)",
-                        "visibility_rules": ["tower_of_zot_1f_chest"]
+                        "visibility_rules": [
+                            "tower_of_zot_1f_chest"
+                        ]
                     },
                     {
                         "name": "Tower of Zot -- 2F -- chest (Hint)",
-                        "visibility_rules": ["tower_of_zot_2f_chest"]
+                        "visibility_rules": [
+                            "tower_of_zot_2f_chest"
+                        ]
                     },
                     {
                         "name": "Tower of Zot -- 5F (through 4F center-left door) -- top (Hint)",
-                        "visibility_rules": ["tower_of_zot_5f_through_4f_center_left_door_top"]
+                        "visibility_rules": [
+                            "tower_of_zot_5f_through_4f_center_left_door_top"
+                        ]
                     },
                     {
                         "name": "Tower of Zot -- 5F (through 4F center door) -- chest (Hint)",
-                        "visibility_rules": ["tower_of_zot_5f_through_4f_center_door_chest"]
+                        "visibility_rules": [
+                            "tower_of_zot_5f_through_4f_center_door_chest"
+                        ]
                     },
                     {
                         "name": "Tower of Zot -- 5F (through 4F center-left door) -- bottom (Hint)",
-                        "visibility_rules": ["tower_of_zot_5f_through_4f_center_left_door_bottom"]
+                        "visibility_rules": [
+                            "tower_of_zot_5f_through_4f_center_left_door_bottom"
+                        ]
                     },
                     {
                         "name": "Tower of Zot -- 5F (through 4F center-right door) -- chest (Hint)",
-                        "visibility_rules": ["tower_of_zot_5f_through_4f_center_right_door_chest"]
+                        "visibility_rules": [
+                            "tower_of_zot_5f_through_4f_center_right_door_chest"
+                        ]
                     },
                     {
                         "name": "Tower of Zot -- 6F -- item (Hint)",
                         "chest_unopened_img": "images/icons/key_magma_unopened.png",
                         "chest_opened_img": "images/icons/key_magma_opened.png",
-                        "visibility_rules": ["tower_of_zot_6f_item"]
+                        "visibility_rules": [
+                            "tower_of_zot_6f_item"
+                        ]
                     },
                     {
                         "name": "Tower of Zot Character 1 (Hint)",
-                        "visibility_rules": ["tower_of_zot_character_1"],
+                        "visibility_rules": [
+                            "tower_of_zot_character_1"
+                        ],
                         "chest_unopened_img": "images/characters/rosa.png",
                         "chest_opened_img": "images/characters/rosadisabled.png"
                     },
                     {
                         "name": "Tower of Zot Character 2 (Hint)",
-                        "visibility_rules": ["tower_of_zot_character_2"],
+                        "visibility_rules": [
+                            "tower_of_zot_character_2"
+                        ],
                         "chest_unopened_img": "images/characters/kain.png",
                         "chest_opened_img": "images/characters/kaindisabled.png"
                     }
@@ -1357,7 +1779,9 @@
                 "sections": [
                     {
                         "name": "Agart -- Exterior -- grass (Hint)",
-                        "visibility_rules": ["agart_exterior_grass"]
+                        "visibility_rules": [
+                            "agart_exterior_grass"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1375,97 +1799,141 @@
                 "sections": [
                     {
                         "name": "Eblan Castle -- 1F -- chest (Hint)",
-                        "visibility_rules": ["eblan_castle_1f_chest"]
+                        "visibility_rules": [
+                            "eblan_castle_1f_chest"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- 2F -- west room, top (Hint)",
-                        "visibility_rules": ["eblan_castle_2f_west_room_top"]
+                        "visibility_rules": [
+                            "eblan_castle_2f_west_room_top"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- 2F -- west room, bottom (Hint)",
-                        "visibility_rules": ["eblan_castle_2f_west_room_bottom"]
+                        "visibility_rules": [
+                            "eblan_castle_2f_west_room_bottom"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- 2F -- east room, top (Hint)",
-                        "visibility_rules": ["eblan_castle_2f_east_room_top"]
+                        "visibility_rules": [
+                            "eblan_castle_2f_east_room_top"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- 2F -- east room, bottom-left (Hint)",
-                        "visibility_rules": ["eblan_castle_2f_east_room_bottom_left"]
+                        "visibility_rules": [
+                            "eblan_castle_2f_east_room_bottom_left"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- 2F -- east room, bottom-right (Hint)",
-                        "visibility_rules": ["eblan_castle_2f_east_room_bottom_right"]
+                        "visibility_rules": [
+                            "eblan_castle_2f_east_room_bottom_right"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- West tower 1F -- left (Hint)",
-                        "visibility_rules": ["eblan_castle_west_tower_1f_left"]
+                        "visibility_rules": [
+                            "eblan_castle_west_tower_1f_left"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- West tower 1F -- right (Hint)",
-                        "visibility_rules": ["eblan_castle_west_tower_1f_right"]
+                        "visibility_rules": [
+                            "eblan_castle_west_tower_1f_right"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- West tower 2F -- top-left pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["eblan_castle_west_tower_2f_top_left_pot"]
+                        "visibility_rules": [
+                            "eblan_castle_west_tower_2f_top_left_pot"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- West tower 2F -- bottom-right pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["eblan_castle_west_tower_2f_bottom_right_pot"]
+                        "visibility_rules": [
+                            "eblan_castle_west_tower_2f_bottom_right_pot"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- West tower 2F -- left chest (Hint)",
-                        "visibility_rules": ["eblan_castle_west_tower_2f_left_chest"]
+                        "visibility_rules": [
+                            "eblan_castle_west_tower_2f_left_chest"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- West tower 2F -- right chest (Hint)",
-                        "visibility_rules": ["eblan_castle_west_tower_2f_right_chest"]
+                        "visibility_rules": [
+                            "eblan_castle_west_tower_2f_right_chest"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- East tower 1F -- left (Hint)",
-                        "visibility_rules": ["eblan_castle_east_tower_1f_left"]
+                        "visibility_rules": [
+                            "eblan_castle_east_tower_1f_left"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- East tower 1F -- right (Hint)",
-                        "visibility_rules": ["eblan_castle_east_tower_1f_right"]
+                        "visibility_rules": [
+                            "eblan_castle_east_tower_1f_right"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- East tower 2F -- left side, top chest (Hint)",
-                        "visibility_rules": ["eblan_castle_east_tower_2f_left_side_top_chest"]
+                        "visibility_rules": [
+                            "eblan_castle_east_tower_2f_left_side_top_chest"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- East tower 2F -- left side, bottom chest (Hint)",
-                        "visibility_rules": ["eblan_castle_east_tower_2f_left_side_bottom_chest"]
+                        "visibility_rules": [
+                            "eblan_castle_east_tower_2f_left_side_bottom_chest"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- East tower 2F -- pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["eblan_castle_east_tower_2f_pot"]
+                        "visibility_rules": [
+                            "eblan_castle_east_tower_2f_pot"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- East tower 2F -- right side, top chest (Hint)",
-                        "visibility_rules": ["eblan_castle_east_tower_2f_right_side_top_chest"]
+                        "visibility_rules": [
+                            "eblan_castle_east_tower_2f_right_side_top_chest"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- East tower 2F -- right side, bottom chest (Hint)",
-                        "visibility_rules": ["eblan_castle_east_tower_2f_right_side_bottom_chest"]
+                        "visibility_rules": [
+                            "eblan_castle_east_tower_2f_right_side_bottom_chest"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- Basement -- left (Hint)",
-                        "visibility_rules": ["eblan_castle_basement_left"]
+                        "visibility_rules": [
+                            "eblan_castle_basement_left"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- Basement -- middle (Hint)",
-                        "visibility_rules": ["eblan_castle_basement_middle"]
+                        "visibility_rules": [
+                            "eblan_castle_basement_middle"
+                        ]
                     },
                     {
                         "name": "Eblan Castle -- Basement -- right (Hint)",
-                        "visibility_rules": ["eblan_castle_basement_right"]
+                        "visibility_rules": [
+                            "eblan_castle_basement_right"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1483,99 +1951,145 @@
                 "sections": [
                     {
                         "name": "Cave Eblana -- B1F -- top middle (Hint)",
-                        "visibility_rules": ["cave_eblana_b1f_top_middle"]
+                        "visibility_rules": [
+                            "cave_eblana_b1f_top_middle"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- B1F -- top right (Hint)",
-                        "visibility_rules": ["cave_eblana_b1f_top_right"]
+                        "visibility_rules": [
+                            "cave_eblana_b1f_top_right"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- B1F -- bottom right (Hint)",
-                        "visibility_rules": ["cave_eblana_b1f_bottom_right"]
+                        "visibility_rules": [
+                            "cave_eblana_b1f_bottom_right"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Hospital -- left pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["cave_eblana_hospital_left_pot"]
+                        "visibility_rules": [
+                            "cave_eblana_hospital_left_pot"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Hospital -- right pot (Hint)",
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png",
-                        "visibility_rules": ["cave_eblana_hospital_right_pot"]
+                        "visibility_rules": [
+                            "cave_eblana_hospital_right_pot"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (west half) -- southwest entrance (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_west_half_southwest_entrance"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_west_half_southwest_entrance"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (west half) -- northwest exit (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_west_half_northwest_exit"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_west_half_northwest_exit"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (east half) -- north entrance, left (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_east_half_north_entrance_left"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_east_half_north_entrance_left"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (east half) -- north entrance, right top (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_east_half_north_entrance_right_top"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_east_half_north_entrance_right_top"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (east half) -- north entrance, right bottom (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_east_half_north_entrance_right_bottom"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_east_half_north_entrance_right_bottom"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (east half) -- north entrance, secret path, top (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_east_half_north_entrance_secret_path_top"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_east_half_north_entrance_secret_path_top"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (east half) -- north entrance, secret path, bottom (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_east_half_north_entrance_secret_path_bottom"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_east_half_north_entrance_secret_path_bottom"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (west half) -- bottom, through secret path (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_west_half_bottom_through_secret_path"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_west_half_bottom_through_secret_path"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (east half) -- bottom (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_east_half_bottom"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_east_half_bottom"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (east half) -- southeast corner, left (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_east_half_southeast_corner_left"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_east_half_southeast_corner_left"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (east half) -- southeast corner, middle (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_east_half_southeast_corner_middle"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_east_half_southeast_corner_middle"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (east half) -- southeast corner, right (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_east_half_southeast_corner_right"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_east_half_southeast_corner_right"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Pass to Bab-il (north connection) -- top right (Hint)",
-                        "visibility_rules": ["cave_eblana_pass_to_babil_north_connection_top_right"]
+                        "visibility_rules": [
+                            "cave_eblana_pass_to_babil_north_connection_top_right"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Exit -- top left, through secret path (Hint)",
-                        "visibility_rules": ["cave_eblana_exit_top_left_through_secret_path"]
+                        "visibility_rules": [
+                            "cave_eblana_exit_top_left_through_secret_path"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Exit -- middle left (Hint)",
-                        "visibility_rules": ["cave_eblana_exit_middle_left"]
+                        "visibility_rules": [
+                            "cave_eblana_exit_middle_left"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Exit -- bottom left (Hint)",
-                        "visibility_rules": ["cave_eblana_exit_bottom_left"]
+                        "visibility_rules": [
+                            "cave_eblana_exit_bottom_left"
+                        ]
                     },
                     {
                         "name": "Cave Eblana -- Save Room -- hidden chest (Hint)",
-                        "visibility_rules": ["cave_eblana_save_room_hidden_chest"]
+                        "visibility_rules": [
+                            "cave_eblana_save_room_hidden_chest"
+                        ]
                     },
                     {
                         "name": "Cave Eblana Character (Hint)",
-                        "visibility_rules": ["cave_eblana_character"],
+                        "visibility_rules": [
+                            "cave_eblana_character"
+                        ],
                         "chest_unopened_img": "images/characters/edge.png",
                         "chest_opened_img": "images/characters/edgedisabled.png"
                     }
@@ -1595,35 +2109,51 @@
                 "sections": [
                     {
                         "name": "Tower of Bab-il (upper) -- 1F -- top (Hint)",
-                        "visibility_rules": ["tower_of_babil_upper_1f_top"]
+                        "visibility_rules": [
+                            "tower_of_babil_upper_1f_top"
+                        ]
                     },
                     {
                         "name": "Tower of Bab-il (upper) -- 1F -- right (Hint)",
-                        "visibility_rules": ["tower_of_babil_upper_1f_right"]
+                        "visibility_rules": [
+                            "tower_of_babil_upper_1f_right"
+                        ]
                     },
                     {
                         "name": "Tower of Bab-il (upper) -- B2F -- chest (long bridge) (Hint)",
-                        "visibility_rules": ["tower_of_babil_upper_b2f_chest_long_bridge"]
+                        "visibility_rules": [
+                            "tower_of_babil_upper_b2f_chest_long_bridge"
+                        ]
                     },
                     {
                         "name": "Tower of Bab-il (upper) -- B3F -- chest (ring bridge) (Hint)",
-                        "visibility_rules": ["tower_of_babil_upper_b3f_chest_ring_bridge"]
+                        "visibility_rules": [
+                            "tower_of_babil_upper_b3f_chest_ring_bridge"
+                        ]
                     },
                     {
                         "name": "Tower of Bab-il (upper) -- B4F -- chest (U bridge) (Hint)",
-                        "visibility_rules": ["tower_of_babil_upper_b4f_chest_u_bridge"]
+                        "visibility_rules": [
+                            "tower_of_babil_upper_b4f_chest_u_bridge"
+                        ]
                     },
                     {
                         "name": "Tower of Bab-il (upper) -- B5F -- chest (left of crystal room entrance) (Hint)",
-                        "visibility_rules": ["tower_of_babil_upper_b5f_chest_left_of_crystal_room_entrance"]
+                        "visibility_rules": [
+                            "tower_of_babil_upper_b5f_chest_left_of_crystal_room_entrance"
+                        ]
                     },
                     {
                         "name": "Tower of Bab-il (lower) -- Trapdoor landing -- chest (Hint)",
-                        "visibility_rules": ["tower_of_babil_lower_trapdoor_landing_chest"]
+                        "visibility_rules": [
+                            "tower_of_babil_lower_trapdoor_landing_chest"
+                        ]
                     },
                     {
                         "name": "Tower of Bab-il (lower) -- Falcon level -- chest (Hint)",
-                        "visibility_rules": ["tower_of_babil_lower_falcon_level_chest"]
+                        "visibility_rules": [
+                            "tower_of_babil_lower_falcon_level_chest"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1641,39 +2171,57 @@
                 "sections": [
                     {
                         "name": "Giant of Bab-il -- Chest -- top left (Hint)",
-                        "visibility_rules": ["giant_of_babil_chest_top_left"]
+                        "visibility_rules": [
+                            "giant_of_babil_chest_top_left"
+                        ]
                     },
                     {
                         "name": "Giant of Bab-il -- Chest -- bottom left (Hint)",
-                        "visibility_rules": ["giant_of_babil_chest_bottom_left"]
+                        "visibility_rules": [
+                            "giant_of_babil_chest_bottom_left"
+                        ]
                     },
                     {
                         "name": "Giant of Bab-il -- Chest -- middle (Hint)",
-                        "visibility_rules": ["giant_of_babil_chest_middle"]
+                        "visibility_rules": [
+                            "giant_of_babil_chest_middle"
+                        ]
                     },
                     {
                         "name": "Giant of Bab-il -- Chest -- top right (Hint)",
-                        "visibility_rules": ["giant_of_babil_chest_top_right"]
+                        "visibility_rules": [
+                            "giant_of_babil_chest_top_right"
+                        ]
                     },
                     {
                         "name": "Giant of Bab-il -- Chest -- bottom right (Hint)",
-                        "visibility_rules": ["giant_of_babil_chest_bottom_right"]
+                        "visibility_rules": [
+                            "giant_of_babil_chest_bottom_right"
+                        ]
                     },
                     {
                         "name": "Giant of Bab-il -- Stomach -- center (Hint)",
-                        "visibility_rules": ["giant_of_babil_stomach_center"]
+                        "visibility_rules": [
+                            "giant_of_babil_stomach_center"
+                        ]
                     },
                     {
                         "name": "Giant of Bab-il -- Stomach -- top right (Hint)",
-                        "visibility_rules": ["giant_of_babil_stomach_top_right"]
+                        "visibility_rules": [
+                            "giant_of_babil_stomach_top_right"
+                        ]
                     },
                     {
                         "name": "Giant of Bab-il -- Passage -- chest (Hint)",
-                        "visibility_rules": ["giant_of_babil_passage_chest"]
+                        "visibility_rules": [
+                            "giant_of_babil_passage_chest"
+                        ]
                     },
                     {
                         "name": "Giant of Bab-il Character (Hint)",
-                        "visibility_rules": ["giant_of_bab-il_character"],
+                        "visibility_rules": [
+                            "giant_of_bab-il_character"
+                        ],
                         "chest_unopened_img": "images/characters/kain.png",
                         "chest_opened_img": "images/characters/kaindisabled.png"
                     }

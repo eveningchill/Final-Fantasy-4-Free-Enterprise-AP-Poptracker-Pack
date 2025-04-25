@@ -3,7 +3,7 @@
 		"tracker_default": {
 			"type": "container",
 			"background": "#212121",
-      "orientation": "horizontal",
+			"orientation": "horizontal",
 			"content": {
 				"type": "dock",
 				"dropshadow": true,
@@ -11,7 +11,7 @@
 					{
 						"type": "dock",
 						"dock": "left",
-            "orientation": "horizontal",
+						"orientation": "horizontal",
 						"content": [
 							{
 								"type": "dock",
@@ -40,17 +40,17 @@
 							}
 						]
 					},
-          {
+					{
 						"type": "dock",
 						"dock": "left",
-            "orientation": "horizontal",
+						"orientation": "horizontal",
 						"content": [
-              {
+							{
 								"type": "dock",
 								"dock": "center",
 								"v_alignment": "stretch",
 								"content": [
-                  {
+									{
 										"type": "group",
 										"header": "Bosses",
 										"dock": "top",
@@ -66,20 +66,19 @@
 				]
 			}
 		},
-	    "settings_popup":
-		{
+		"settings_popup": {
 			"type": "array",
 			"orientation": "horizontal",
 			"h_alignment": "left",
 			"content": [
 				{
-				"type": "group",
-				"header": "Settings",
-				"dock": "bottom",
-				"content": {
-				"type": "layout",
-				"key": "settings_grid"
-					}	
+					"type": "group",
+					"header": "Settings",
+					"dock": "bottom",
+					"content": {
+						"type": "layout",
+						"key": "settings_grid"
+					}
 				}
 			]
 		}

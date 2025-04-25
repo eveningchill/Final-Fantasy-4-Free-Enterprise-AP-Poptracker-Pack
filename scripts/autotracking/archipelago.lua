@@ -8,7 +8,6 @@ LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
 function onClear(slot_data)
-
     SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
@@ -61,31 +60,30 @@ function onClear(slot_data)
         return
     end
 
-	PLAYER_NUMBER = Archipelago.PlayerNumber or -1
-	TEAM_NUMBER = Archipelago.TeamNumber or 0
+    PLAYER_NUMBER = Archipelago.PlayerNumber or -1
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
 
     if slot_data["NoFreeCharacters"] ~= nil then
         Tracker:FindObjectForCode("nofreecharacters").CurrentStage = slot_data["NoFreeCharacters"] and 1 or 0
     end
-    
+
     if slot_data["NoEarnedCharacters"] ~= nil then
         Tracker:FindObjectForCode("noearnedcharacters").CurrentStage = slot_data["NoEarnedCharacters"] and 1 or 0
     end
-    
+
     if slot_data["DarkMatterHunt"] ~= nil then
         Tracker:FindObjectForCode("darkmatterhunt").CurrentStage = slot_data["DarkMatterHunt"] and 1 or 0
     end
-    
+
     if slot_data["PassEnabled"] ~= nil then
         Tracker:FindObjectForCode("passenabled").CurrentStage = slot_data["PassEnabled"] and 1 or 0
     end
-    
+
 
     if Archipelago.PlayerNumber > -1 then
-    
-        HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
-        Archipelago:SetNotify({HINTS_ID})
-        Archipelago:Get({HINTS_ID})
+        HINTS_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
+        Archipelago:SetNotify({ HINTS_ID })
+        Archipelago:Get({ HINTS_ID })
     end
 end
 
@@ -179,10 +177,7 @@ function onLocation(location_id, location_name)
     end
 end
 
-
-
 function onNotify(key, value, old_value)
-
     if value ~= old_value and key == HINTS_ID then
         for _, hint in ipairs(value) do
             if not hint.found and hint.finding_player == Archipelago.PlayerNumber then
@@ -202,7 +197,6 @@ function onNotifyLaunch(key, value)
     end
 end
 
- 
 function updateHints(locationID)
     local item_codes = HINTS_MAPPING[locationID]
 
@@ -216,8 +210,6 @@ function updateHints(locationID)
     end
 end
 
-
-
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -227,7 +219,7 @@ function onScout(location_id, location_name, item_id, item_name, item_player)
     -- not implemented yet :(
 end
 
--- called when a bounce message is received 
+-- called when a bounce message is received
 function onBounce(json)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onBounce: %s", dump_table(json)))

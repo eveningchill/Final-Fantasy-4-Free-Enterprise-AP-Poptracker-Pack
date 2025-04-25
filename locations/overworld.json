@@ -1,7 +1,9 @@
 [
     {
         "name": "Overworld",
-        "access_rules": [""],
+        "access_rules": [
+            ""
+        ],
         "children": [
             {
                 "name": "Baron Town",
@@ -69,15 +71,21 @@
                     },
                     {
                         "name": "Baron Town -- Weapon-armor shop -- weapon",
-                        "access_rules": ["baronkey"]
+                        "access_rules": [
+                            "baronkey"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Weapon-armor shop -- armor",
-                        "access_rules": ["baronkey"]
+                        "access_rules": [
+                            "baronkey"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Access to Old Water-way -- hidden chest",
-                        "access_rules": ["baronkey"]
+                        "access_rules": [
+                            "baronkey"
+                        ]
                     },
                     {
                         "name": "Baron Town -- Inn -- item",
@@ -88,7 +96,9 @@
                         "name": "Baron Inn Character",
                         "chest_unopened_img": "images/characters/yang.png",
                         "chest_opened_img": "images/characters/yangdisabled.png",
-                        "visibility_rules": ["noearnedcharactersoff"]
+                        "visibility_rules": [
+                            "noearnedcharactersoff"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -181,14 +191,20 @@
                     },
                     {
                         "name": "Mist -- Exterior -- Rydia's Mom item",
-                        "access_rules": ["mistdragonx"],
+                        "access_rules": [
+                            "mistdragonx"
+                        ],
                         "chest_unopened_img": "images/icons/rydias_mom_unopened.png",
                         "chest_opened_img": "images/icons/rydias_mom_opened.png"
                     },
                     {
                         "name": "Mist Character",
-                        "access_rules": ["package"],
-                        "visibility_rules": ["noearnedcharactersoff"],
+                        "access_rules": [
+                            "package"
+                        ],
+                        "visibility_rules": [
+                            "noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/rydia.png",
                         "chest_opened_img": "images/characters/rydiadisabled.png"
                     }
@@ -211,8 +227,12 @@
                     },
                     {
                         "name": "Kaipo Character",
-                        "access_rules": ["sandruby"],
-                        "visibility_rules": ["noearnedcharactersoff"],
+                        "access_rules": [
+                            "sandruby"
+                        ],
+                        "visibility_rules": [
+                            "noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/rosa.png",
                         "chest_opened_img": "images/characters/rosadisabled.png"
                     }
@@ -241,7 +261,9 @@
                     },
                     {
                         "name": "Watery Pass Character",
-                        "visibility_rules": ["nofreecharactersoff,noearnedcharactersoff"],
+                        "visibility_rules": [
+                            "nofreecharactersoff,noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/tellah.png",
                         "chest_opened_img": "images/characters/tellahdisabled.png"
                     },
@@ -380,7 +402,9 @@
                     },
                     {
                         "name": "Damcyan Character",
-                        "visibility_rules": ["nofreecharactersoff,noearnedcharactersoff"],
+                        "visibility_rules": [
+                            "nofreecharactersoff,noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/edward.png",
                         "chest_opened_img": "images/characters/edwarddisabled.png"
                     }
@@ -458,7 +482,9 @@
                 "sections": [
                     {
                         "name": "Mt. Hobs Character",
-                        "visibility_rules": ["noearnedcharactersoff"],
+                        "visibility_rules": [
+                            "noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/yang.png",
                         "chest_opened_img": "images/characters/yangdisabled.png"
                     },
@@ -534,16 +560,21 @@
                     },
                     {
                         "name": "Fabul -- West tower 3F (Yang's room) -- Found Yang item",
-                        "access_rules": ["magmakey","hook"],
+                        "access_rules": [
+                            "magmakey",
+                            "hook"
+                        ],
                         "chest_unopened_img": "images/icons/key_pan_unopened.png",
                         "chest_opened_img": "images/icons/key_pan_opened.png"
                     },
                     {
                         "name": "Fabul -- West tower 3F (Yang's room) -- Pan Trade item",
-                        "access_rules": ["magmakey,pan","hook,pan"],
+                        "access_rules": [
+                            "magmakey,pan",
+                            "hook,pan"
+                        ],
                         "chest_unopened_img": "images/icons/key_spoon_unopened.png",
                         "chest_opened_img": "images/icons/key_spoon_opened.png"
-
                     }
                 ],
                 "map_locations": [
@@ -596,17 +627,23 @@
             },
             {
                 "name": "Adamant Cave",
-                "access_rules": ["hook"],
+                "access_rules": [
+                    "hook"
+                ],
                 "sections": [
                     {
                         "name": "Adamant -- Cave -- Rat Tail Trade item",
-                        "access_rules": ["rattail"],
+                        "access_rules": [
+                            "rattail"
+                        ],
                         "chest_unopened_img": "images/icons/key_adamant_unopened.png",
                         "chest_opened_img": "images/icons/key_adamant_opened.png"
                     },
                     {
                         "name": "Adamant -- Cave -- Pink Tail Trade item",
-                        "access_rules": ["pinktail"],
+                        "access_rules": [
+                            "pinktail"
+                        ],
                         "chest_unopened_img": "images/icons/key_pink_tail_unopened.png",
                         "chest_opened_img": "images/icons/key_pink_tail_opened.png"
                     }
@@ -624,13 +661,17 @@
                 "sections": [
                     {
                         "name": "Mysidia Character 1",
-                        "visibility_rules": ["nofreecharactersoff,noearnedcharactersoff"],
+                        "visibility_rules": [
+                            "nofreecharactersoff,noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/porom.png",
                         "chest_opened_img": "images/characters/poromdisabled.png"
                     },
                     {
                         "name": "Mysidia Character 2",
-                        "visibility_rules": ["nofreecharactersoff,noearnedcharactersoff"],
+                        "visibility_rules": [
+                            "nofreecharactersoff,noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/palom.png",
                         "chest_opened_img": "images/characters/palomdisabled.png"
                     }
@@ -656,7 +697,9 @@
                     },
                     {
                         "name": "Mt. Ordeals Character",
-                        "visibility_rules": ["nofreecharactersoff,noearnedcharactersoff"],
+                        "visibility_rules": [
+                            "nofreecharactersoff,noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/tellah.png",
                         "chest_opened_img": "images/characters/tellahdisabled.png"
                     },
@@ -699,7 +742,9 @@
             },
             {
                 "name": "Old Water-way",
-                "access_rules": ["baronkey"],
+                "access_rules": [
+                    "baronkey"
+                ],
                 "chest_unopened_img": "images/icons/chest_red_unopened.png",
                 "chest_opened_img": "images/icons/chest_red_opened.png",
                 "sections": [
@@ -756,140 +801,188 @@
                     },
                     {
                         "name": "Baron Castle -- 1F -- left",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- 1F -- middle",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- 1F -- right",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East hall treasury -- top left",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East hall treasury -- top middle",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East hall treasury -- top right",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East hall treasury -- bottom left",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East hall treasury -- bottom middle",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East hall treasury -- bottom right",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East tower 1F -- top",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East tower 1F -- leftmost",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East tower 1F -- middle left",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East tower 1F -- right",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East tower 2F -- left, top",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East tower 2F -- left, bottom",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East tower 3F -- pot",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East tower 3F -- left chest",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East tower 3F -- middle chest",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East tower 3F -- right chest",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
                         "chest_opened_img": "images/icons/chest_brown_opened.png"
                     },
                     {
                         "name": "Baron Castle -- East tower B1 -- pot",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/pot_unopened.png",
                         "chest_opened_img": "images/icons/pot_opened.png"
                     },
                     {
                         "name": "Baron Castle -- Throne Room -- item",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/boss_kainazzo_unopened.png",
                         "chest_opened_img": "images/icons/boss_kainazzo_opened.png"
                     },
                     {
                         "name": "Baron Castle -- Basement -- Odin item",
-                        "access_rules": ["baronkey"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
                         "chest_unopened_img": "images/icons/boss_odin_unopened.png",
                         "chest_opened_img": "images/icons/boss_odin_opened.png"
                     },
                     {
                         "name": "Baron Castle Character",
-                        "access_rules": ["baronkey"],
-                        "visibility_rules": ["noearnedcharactersoff"],
+                        "access_rules": [
+                            "baronkey"
+                        ],
+                        "visibility_rules": [
+                            "noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/cid.png",
                         "chest_opened_img": "images/characters/ciddisabled.png"
                     }
@@ -1022,7 +1115,9 @@
                     },
                     {
                         "name": "Cave Magnes -- Crystal Room -- item",
-                        "access_rules": ["twinharp"],
+                        "access_rules": [
+                            "twinharp"
+                        ],
                         "chest_unopened_img": "images/icons/key_earth_crystal_unopened.png",
                         "chest_opened_img": "images/icons/key_earth_crystal_opened.png"
                     }
@@ -1071,75 +1166,111 @@
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 1",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 2",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 3",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 4",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 5",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 6",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 7",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 8",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- top row, 9",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 1",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 2",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 3",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 4",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 5",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 6",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 7",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 8",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Treasury -- bottom row, 9",
-                        "access_rules": ["earthcrystal"]
+                        "access_rules": [
+                            "earthcrystal"
+                        ]
                     },
                     {
                         "name": "Toroia Castle -- Hospital -- Edward-Toroia item",
@@ -1180,21 +1311,31 @@
                     },
                     {
                         "name": "Tower of Zot -- 6F -- item",
-                        "access_rules": ["earthcrystal"],
+                        "access_rules": [
+                            "earthcrystal"
+                        ],
                         "chest_unopened_img": "images/icons/key_magma_unopened.png",
                         "chest_opened_img": "images/icons/key_magma_opened.png"
                     },
                     {
                         "name": "Tower of Zot Character 1",
-                        "access_rules": ["earthcrystal"],
-                        "visibility_rules": ["noearnedcharactersoff"],
+                        "access_rules": [
+                            "earthcrystal"
+                        ],
+                        "visibility_rules": [
+                            "noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/rosa.png",
                         "chest_opened_img": "images/characters/rosadisabled.png"
                     },
                     {
                         "name": "Tower of Zot Character 2",
-                        "access_rules": ["earthcrystal"],
-                        "visibility_rules": ["noearnedcharactersoff"],
+                        "access_rules": [
+                            "earthcrystal"
+                        ],
+                        "visibility_rules": [
+                            "noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/kain.png",
                         "chest_opened_img": "images/characters/kaindisabled.png"
                     }
@@ -1314,7 +1455,9 @@
                 "name": "Cave Eblana",
                 "chest_unopened_img": "images/icons/chest_orange_unopened.png",
                 "chest_opened_img": "images/icons/chest_orange_opened.png",
-                "access_rules": ["hook"],
+                "access_rules": [
+                    "hook"
+                ],
                 "sections": [
                     {
                         "name": "Cave Eblana -- B1F -- top middle"
@@ -1388,7 +1531,9 @@
                     },
                     {
                         "name": "Cave Eblana Character",
-                        "visibility_rules": ["noearnedcharactersoff"],
+                        "visibility_rules": [
+                            "noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/edge.png",
                         "chest_opened_img": "images/characters/edgedisabled.png"
                     }
@@ -1405,7 +1550,9 @@
                 "name": "Tower of Bab-il (upper)",
                 "chest_unopened_img": "images/icons/chest_red_unopened.png",
                 "chest_opened_img": "images/icons/chest_red_opened.png",
-                "access_rules": ["hook"],
+                "access_rules": [
+                    "hook"
+                ],
                 "sections": [
                     {
                         "name": "Tower of Bab-il (upper) -- 1F -- top"
@@ -1444,7 +1591,9 @@
                 "name": "Giant of Bab-il",
                 "chest_unopened_img": "images/icons/chest_red_unopened.png",
                 "chest_opened_img": "images/icons/chest_red_opened.png",
-                "access_rules": ["darknesscrystal"],
+                "access_rules": [
+                    "darknesscrystal"
+                ],
                 "sections": [
                     {
                         "name": "Giant of Bab-il -- Chest -- top left"
@@ -1472,7 +1621,9 @@
                     },
                     {
                         "name": "Giant of Bab-il Character",
-                        "visibility_rules": ["noearnedcharactersoff"],
+                        "visibility_rules": [
+                            "noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/kain.png",
                         "chest_opened_img": "images/characters/kaindisabled.png"
                     }

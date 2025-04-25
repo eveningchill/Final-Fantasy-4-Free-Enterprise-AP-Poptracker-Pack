@@ -3,19 +3,18 @@
     "name": "No Free Characters",
     "codes": "nofreecharacters",
     "type": "progressive",
-    "allow_disabled":false,
-    "loop":true,
+    "allow_disabled": false,
+    "loop": true,
     "stages": [
       {
         "img": "images/settings/off.png",
         "codes": "nofreecharactersoff",
-        "inherit_codes":false
+        "inherit_codes": false
       },
-      
       {
         "img": "images/settings/on.png",
         "codes": "nofreecharacterson",
-        "inherit_codes":false
+        "inherit_codes": false
       }
     ]
   },
@@ -23,19 +22,18 @@
     "name": "No Earned Characters",
     "codes": "noearnedcharacters",
     "type": "progressive",
-    "allow_disabled":false,
-    "loop":true,
+    "allow_disabled": false,
+    "loop": true,
     "stages": [
       {
         "img": "images/settings/off.png",
         "codes": "noearnedcharactersoff",
-        "inherit_codes":false
+        "inherit_codes": false
       },
-      
       {
         "img": "images/settings/on.png",
         "codes": "noearnedcharacterson",
-        "inherit_codes":false
+        "inherit_codes": false
       }
     ]
   },
@@ -43,19 +41,18 @@
     "name": "Dark Matter Hunt",
     "codes": "darkmatterhunt",
     "type": "progressive",
-    "allow_disabled":false,
-    "loop":true,
+    "allow_disabled": false,
+    "loop": true,
     "stages": [
       {
         "img": "images/settings/off.png",
         "codes": "darkmatterhuntoff",
-        "inherit_codes":false
+        "inherit_codes": false
       },
-      
       {
         "img": "images/settings/on.png",
         "codes": "darkmatterhunton",
-        "inherit_codes":false
+        "inherit_codes": false
       }
     ]
   },
@@ -63,20 +60,19 @@
     "name": "Pass Enabled",
     "codes": "passenabled",
     "type": "progressive",
-    "allow_disabled":false,
-    "loop":true,
+    "allow_disabled": false,
+    "loop": true,
     "initial_stage_idx": 1,
     "stages": [
       {
         "img": "images/settings/off.png",
         "codes": "passenabledoff",
-        "inherit_codes":false
+        "inherit_codes": false
       },
-      
       {
         "img": "images/settings/on.png",
         "codes": "passenabledon",
-        "inherit_codes":false
+        "inherit_codes": false
       }
     ]
   },

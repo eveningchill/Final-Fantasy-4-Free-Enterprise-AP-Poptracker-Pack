@@ -34,7 +34,7 @@
 											"key": "item_grid"
 										}
 									},
-                					{
+									{
 										"type": "group",
 										"header": "Bosses",
 										"dock": "left",
@@ -64,20 +64,19 @@
 				]
 			}
 		},
-	    "settings_popup":
-		{
+		"settings_popup": {
 			"type": "array",
 			"orientation": "horizontal",
 			"h_alignment": "left",
 			"content": [
 				{
-				"type": "group",
-				"header": "Settings",
-				"dock": "bottom",
-				"content": {
-				"type": "layout",
-				"key": "settings_grid"
-					}	
+					"type": "group",
+					"header": "Settings",
+					"dock": "bottom",
+					"content": {
+						"type": "layout",
+						"key": "settings_grid"
+					}
 				}
 			]
 		}

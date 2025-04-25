@@ -1,7 +1,9 @@
 [
     {
         "name": "Moon",
-        "access_rules": ["darknesscrystal"],
+        "access_rules": [
+            "darknesscrystal"
+        ],
         "children": [
             {
                 "name": "Lunar Path",
@@ -69,7 +71,9 @@
                 "sections": [
                     {
                         "name": "Lunar Palace Character",
-                        "visibility_rules": ["noearnedcharactersoff"],
+                        "visibility_rules": [
+                            "noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/fusoya.png",
                         "chest_opened_img": "images/characters/fusoyadisabled.png"
                     },
@@ -215,7 +219,7 @@
                         "y": 560
                     }
                 ]
-            }                        
+            }
         ]
     }
 ]

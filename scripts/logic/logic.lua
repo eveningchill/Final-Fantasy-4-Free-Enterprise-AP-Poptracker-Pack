@@ -11,5 +11,5 @@ function has_more_then_n_consumable(n)
     if val then
         return 1 -- 1 => access is in logic
     end
-    return 0 -- 0 => no access
+    return 0     -- 0 => no access
 end

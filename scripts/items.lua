@@ -3,4 +3,3 @@ Tracker:AddItems("items/characters.json")
 Tracker:AddItems("items/hints.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/settings.json")
-

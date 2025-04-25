@@ -3,7 +3,10 @@
         "name": "Underworld",
         "chest_unopened_img": "images/icons/chest_brown_unopened.png",
         "chest_opened_img": "images/icons/chest_brown_opened.png",
-        "access_rules": ["magmakey","hook"],
+        "access_rules": [
+            "magmakey",
+            "hook"
+        ],
         "children": [
             {
                 "name": "Dwarf Castle",
@@ -81,7 +84,9 @@
                     },
                     {
                         "name": "Dwarf Castle Character",
-                        "visibility_rules": ["noearnedcharactersoff"],
+                        "visibility_rules": [
+                            "noearnedcharactersoff"
+                        ],
                         "chest_unopened_img": "images/characters/rydia.png",
                         "chest_opened_img": "images/characters/rydiadisabled.png"
                     }
@@ -144,7 +149,9 @@
                         "name": "Tower of Bab-il (lower) -- 5F -- item (Super Cannon destruction)",
                         "chest_unopened_img": "images/icons/boss_dark_imps_unopened.png",
                         "chest_opened_img": "images/icons/boss_dark_imps_opened.png",
-                        "access_rules": ["towerkey"]
+                        "access_rules": [
+                            "towerkey"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -216,7 +223,9 @@
                     },
                     {
                         "name": "Kokkol's House 2F -- Kokkol -- forge item",
-                        "access_rules": ["legendsword,adamant"],
+                        "access_rules": [
+                            "legendsword,adamant"
+                        ],
                         "chest_unopened_img": "images/icons/key_legend_unopened.png",
                         "chest_opened_img": "images/icons/key_legend_opened.png"
                     }
@@ -233,7 +242,9 @@
                 "name": "Sealed Cave",
                 "chest_unopened_img": "images/icons/chest_red_unopened.png",
                 "chest_opened_img": "images/icons/chest_red_opened.png",
-                "access_rules": ["lucakey"],
+                "access_rules": [
+                    "lucakey"
+                ],
                 "sections": [
                     {
                         "name": "Sealed Cave -- B1F -- chest"
@@ -411,7 +422,9 @@
                         "name": "Sylvan Cave -- B3F -- Sylph item",
                         "chest_unopened_img": "images/icons/key_pan_unopened.png",
                         "chest_opened_img": "images/icons/key_pan_opened.png",
-                        "access_rules": ["pan"]
+                        "access_rules": [
+                            "pan"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -423,7 +436,7 @@
                 ]
             },
             {
-                "name": "Land of Monsters", 
+                "name": "Land of Monsters",
                 "chest_unopened_img": "images/icons/chest_orange_unopened.png",
                 "chest_opened_img": "images/icons/chest_orange_opened.png",
                 "sections": [
@@ -481,7 +494,7 @@
                         "name": "Town of Monsters -- B4F (first area) -- middle left"
                     },
                     {
-                        "name": "Town of Monsters -- B4F (first area) -- Rat Tail", 
+                        "name": "Town of Monsters -- B4F (first area) -- Rat Tail",
                         "chest_unopened_img": "images/icons/key_rat_tail_unopened.png",
                         "chest_opened_img": "images/icons/key_rat_tail_opened.png"
                     },
@@ -510,12 +523,12 @@
                         "name": "Town of Monsters -- Save Room -- right"
                     },
                     {
-                        "name": "Town of Monsters -- Throne Room -- Asura item", 
+                        "name": "Town of Monsters -- Throne Room -- Asura item",
                         "chest_unopened_img": "images/icons/boss_asura_unopened.png",
                         "chest_opened_img": "images/icons/boss_asura_opened.png"
                     },
                     {
-                        "name": "Town of Monsters -- Throne Room -- Levia item", 
+                        "name": "Town of Monsters -- Throne Room -- Levia item",
                         "chest_unopened_img": "images/icons/boss_leviathan_unopened.png",
                         "chest_opened_img": "images/icons/boss_leviathan_opened.png"
                     }
@@ -527,7 +540,7 @@
                         "y": 1453
                     }
                 ]
-            }  
+            }
         ]
     }
 ]
