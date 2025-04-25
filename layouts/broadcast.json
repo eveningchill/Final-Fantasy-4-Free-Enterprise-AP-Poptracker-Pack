@@ -34,21 +34,7 @@
                                         "type": "layout",
                                         "key": "item_grid"
                                     }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "dock",
-                    "dock": "left",
-                    "orientation": "horizontal",
-                    "content": [
-                        {
-                            "type": "dock",
-                            "dock": "center",
-                            "v_alignment": "stretch",
-                            "content": [
+                                },
                                 {
                                     "type": "group",
                                     "header": "Bosses",
